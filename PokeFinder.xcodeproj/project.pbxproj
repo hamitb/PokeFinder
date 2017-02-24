@@ -14,6 +14,7 @@
 		C32FB7571E6069B20083CF0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C32FB7561E6069B20083CF0A /* Assets.xcassets */; };
 		C32FB75A1E6069B20083CF0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C32FB7581E6069B20083CF0A /* LaunchScreen.storyboard */; };
 		C32FB7621E607C420083CF0A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C32FB7611E607C420083CF0A /* GoogleService-Info.plist */; };
+		C3DFA4971E608CD100E6EC8B /* PokeAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DFA4961E608CD100E6EC8B /* PokeAnnotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		C32FB7591E6069B20083CF0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C32FB75B1E6069B20083CF0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C32FB7611E607C420083CF0A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C3DFA4961E608CD100E6EC8B /* PokeAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokeAnnotation.swift; sourceTree = "<group>"; };
 		D6A5ED412A8B4C97508C0CF5 /* Pods-PokeFinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PokeFinder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PokeFinder/Pods-PokeFinder.debug.xcconfig"; sourceTree = "<group>"; };
 		FAF3D4C2D29CF16FC6BEA756 /* Pods-PokeFinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PokeFinder.release.xcconfig"; path = "Pods/Target Support Files/Pods-PokeFinder/Pods-PokeFinder.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -71,15 +73,40 @@
 		C32FB74E1E6069B20083CF0A /* PokeFinder */ = {
 			isa = PBXGroup;
 			children = (
+				C3DFA4951E608CA300E6EC8B /* Model */,
+				C3DFA4941E608C9F00E6EC8B /* View */,
+				C3DFA4931E608C9A00E6EC8B /* Controller */,
 				C32FB7611E607C420083CF0A /* GoogleService-Info.plist */,
 				C32FB74F1E6069B20083CF0A /* AppDelegate.swift */,
-				C32FB7511E6069B20083CF0A /* ViewController.swift */,
 				C32FB7531E6069B20083CF0A /* Main.storyboard */,
 				C32FB7561E6069B20083CF0A /* Assets.xcassets */,
 				C32FB7581E6069B20083CF0A /* LaunchScreen.storyboard */,
 				C32FB75B1E6069B20083CF0A /* Info.plist */,
 			);
 			path = PokeFinder;
+			sourceTree = "<group>";
+		};
+		C3DFA4931E608C9A00E6EC8B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C32FB7511E6069B20083CF0A /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		C3DFA4941E608C9F00E6EC8B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		C3DFA4951E608CA300E6EC8B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C3DFA4961E608CD100E6EC8B /* PokeAnnotation.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 		E6D2227C723AC7154CB2D08C /* Pods */ = {
@@ -217,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C32FB7521E6069B20083CF0A /* ViewController.swift in Sources */,
+				C3DFA4971E608CD100E6EC8B /* PokeAnnotation.swift in Sources */,
 				C32FB7501E6069B20083CF0A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
