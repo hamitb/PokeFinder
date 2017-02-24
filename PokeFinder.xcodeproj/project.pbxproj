@@ -381,6 +381,7 @@
 				C32FB7601E6069B20083CF0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
